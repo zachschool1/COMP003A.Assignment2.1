@@ -31,9 +31,13 @@
             Console.WriteLine($"Average: {(num1Int + num2Int) / 2}");
             Console.WriteLine($"Difference: {num1Int - num2Int}");
             Console.WriteLine($"Product: {num1Int * num2Int}");
-            Console.WriteLine($"Quotient: {(float)(num1Int / num2Int)}");
+            Console.WriteLine($"Quotient: {(float)num1Int / num2Int}");
 
-
+            Console.WriteLine($"Comparisons");
+            Console.WriteLine("-------------");
+            Console.WriteLine($"{num1} > {num2}: {(num1Int > num2Int)}");
+            Console.WriteLine($"{num1} == {num2}: {(num1Int == num2Int)}");
+            Console.WriteLine($"{num1} != {num2}: {(num1Int != num2Int)}");
         }
     }
 }
