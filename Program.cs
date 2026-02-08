@@ -12,11 +12,11 @@
 
             Console.Write("Enter number 1: ");
             string num1 = Console.ReadLine();
-            int num1Int = int.Parse(num1);
+            double num1Double = double.Parse(num1);
 
             Console.Write("Enter number 2: ");
             string num2 = Console.ReadLine();
-            int num2Int = int.Parse(num2);
+            double num2Double = double.Parse(num2);
 
             Console.WriteLine();
             Console.WriteLine("Name Formats");
@@ -27,17 +27,17 @@
             Console.WriteLine("Results");
             Console.WriteLine("------------");
 
-            Console.WriteLine($"Sum: {num1Int + num2Int}");
-            Console.WriteLine($"Average: {(num1Int + num2Int) / 2}");
-            Console.WriteLine($"Difference: {num1Int - num2Int}");
-            Console.WriteLine($"Product: {num1Int * num2Int}");
-            Console.WriteLine($"Quotient: {(float)num1Int / num2Int}");
+            Console.WriteLine($"Sum: {num1Double + num2Double}");
+            Console.WriteLine($"Average: {(num1Double + num2Double) / 2}");
+            Console.WriteLine($"Difference: {num1Double - num2Double}");
+            Console.WriteLine($"Product: {num1Double * num2Double}");
+            Console.WriteLine($"Quotient: {num1Double / num2Double}");
 
             Console.WriteLine($"Comparisons");
             Console.WriteLine("-------------");
-            Console.WriteLine($"{num1} > {num2}: {(num1Int > num2Int)}");
-            Console.WriteLine($"{num1} == {num2}: {(num1Int == num2Int)}");
-            Console.WriteLine($"{num1} != {num2}: {(num1Int != num2Int)}");
+            Console.WriteLine($"{num1} > {num2}: {(num1Double > num2Double)}");
+            Console.WriteLine($"{num1} == {num2}: {(num1Double == num2Double)}");
+            Console.WriteLine($"{num1} != {num2}: {(num1Double != num2Double)}");
         }
     }
 }
